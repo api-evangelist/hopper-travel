@@ -1,0 +1,175 @@
+aid: hopper-travel
+url: https://raw.githubusercontent.com/api-evangelist/hopper-travel/refs/heads/main/apis.yml
+name: Hopper
+kind: company
+description: >-
+  Hopper is a travel marketplace and fintech, best known for consumer flight,
+  hotel, car, and homes booking with fintech ancillaries such as Price Freeze,
+  Cancel for Any Reason, and Disruption Assistance for Any Reason. Hopper
+  Technology Solutions (HTS) is the B2B arm that exposes Hopper's e-commerce
+  (Stays, Cars, Packages), fintech ancillaries, loyalty portals, and HTS Assist
+  agentic AI to banks, airlines, and travel providers including Capital One,
+  Air Canada, Virgin Australia, Tripadvisor, Frontier, Wizz Air, and Porter.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Travel
+  - Marketplace
+  - Fintech
+  - Price Freeze
+  - Insurance
+  - B2B
+  - Embedded
+  - Agentic AI
+  - Banks
+  - Airlines
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: hopper-travel:consumer-app
+    name: Hopper Consumer App
+    description: >-
+      Consumer mobile and web app for booking flights, hotels, homes, and
+      cars. Pioneered price prediction, Price Freeze, and flexible cancellation
+      for end travelers. No public API.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://hopper.com/
+    baseURL: https://hopper.com
+    tags:
+      - Consumer
+      - Booking
+      - Mobile
+      - Price Freeze
+    properties:
+      - type: ProductPage
+        url: https://hopper.com/
+      - type: Homes
+        url: https://hopper.com/homes
+  - aid: hopper-travel:hts-stays
+    name: HTS Stays
+    description: >-
+      Hopper Technology Solutions lodging e-commerce platform that gives
+      partners access to global hotel inventory with conversion-optimized UX
+      and merchandising. Partner-gated; integration via HTS sales.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://hts.hopper.com/products/hts-stays
+    baseURL: https://hts.hopper.com
+    tags:
+      - B2B
+      - Hotels
+      - Lodging
+      - Embedded
+    properties:
+      - type: ProductPage
+        url: https://hts.hopper.com/products/hts-stays
+  - aid: hopper-travel:hts-cars
+    name: HTS Cars
+    description: >-
+      Car rental e-commerce platform from HTS that partners embed for global
+      car rental inventory and booking. Partner-gated.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://hts.hopper.com/products/hts-cars
+    baseURL: https://hts.hopper.com
+    tags:
+      - B2B
+      - Cars
+      - Rentals
+      - Embedded
+    properties:
+      - type: ProductPage
+        url: https://hts.hopper.com/products/hts-cars
+  - aid: hopper-travel:hts-packages
+    name: HTS Packages
+    description: >-
+      Bundled flight + hotel package product from HTS. Partner-gated.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://hts.hopper.com/products/hts-packages
+    baseURL: https://hts.hopper.com
+    tags:
+      - B2B
+      - Packages
+      - Flights
+      - Hotels
+    properties:
+      - type: ProductPage
+        url: https://hts.hopper.com/products/hts-packages
+  - aid: hopper-travel:hts-fintech-ancillaries
+    name: HTS Fintech Ancillaries (Cancel for Any Reason, Disruption Assistance, Seat Upgrades)
+    description: >-
+      Proprietary fintech ancillaries that partners attach to their bookings —
+      Cancel for Any Reason (airlines and hotels), Disruption Assistance for
+      Any Reason, and HTS Seat Upgrades. Marketed as Hopper's market-leading
+      profit driver with sales in 180+ countries. Partner-gated.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://hts.hopper.com/
+    baseURL: https://hts.hopper.com
+    tags:
+      - B2B
+      - Fintech
+      - Insurance
+      - Ancillaries
+      - Disruption
+    properties:
+      - type: ProductPage
+        url: https://hts.hopper.com/
+  - aid: hopper-travel:hts-loyalty-portals
+    name: HTS Travel Loyalty Portals (Banks)
+    description: >-
+      Travel loyalty portals powering bank travel programs, used by partners
+      such as Capital One Travel and RBC. Partner-gated.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://hts.hopper.com/
+    baseURL: https://hts.hopper.com
+    tags:
+      - B2B
+      - Loyalty
+      - Banks
+      - Travel Portals
+    properties:
+      - type: ProductPage
+        url: https://hts.hopper.com/
+      - type: PartnerExample
+        title: Capital One Travel
+        url: https://www.capitalone.com/travel/
+  - aid: hopper-travel:hts-assist
+    name: HTS Assist (Agentic AI Customer Service)
+    description: >-
+      Agentic AI built specifically for airline and travel customer service,
+      delivering end-to-end autonomous resolutions via voice and chat. Sold to
+      airlines and travel partners; integration is sales-led.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://hts.hopper.com/products/hts-assist
+    baseURL: https://hts.hopper.com
+    tags:
+      - B2B
+      - Agentic AI
+      - Customer Service
+      - Voice
+      - Chat
+    properties:
+      - type: ProductPage
+        url: https://hts.hopper.com/products/hts-assist
+common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hopper
+  - type: LinkedInHTS
+    url: https://www.linkedin.com/company/hts-hopper-technology-solutions
+  - type: Website
+    url: https://hopper.com/
+  - type: HTSWebsite
+    url: https://hts.hopper.com/
+  - type: News
+    url: https://hts.hopper.com/news
+  - type: Newsroom
+    url: https://hts.hopper.com/newsroom
+  - type: GitHub
+    url: https://github.com/hopper
+  - type: Plans
+    url: plans/hopper-travel-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/hopper-travel-rate-limits.yml
+  - type: FinOps
+    url: finops/hopper-travel-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
