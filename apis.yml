@@ -10,7 +10,7 @@ description: >-
   (Stays, Cars, Packages), fintech ancillaries, loyalty portals, and HTS Assist
   agentic AI to banks, airlines, and travel providers including Capital One,
   Air Canada, Virgin Australia, Tripadvisor, Frontier, Wizz Air, and Porter.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Travel
   - Marketplace
@@ -32,7 +32,7 @@ apis:
       Consumer mobile and web app for booking flights, hotels, homes, and
       cars. Pioneered price prediction, Price Freeze, and flexible cancellation
       for end travelers. No public API.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://hopper.com/
     baseURL: https://hopper.com
     tags:
@@ -51,7 +51,7 @@ apis:
       Hopper Technology Solutions lodging e-commerce platform that gives
       partners access to global hotel inventory with conversion-optimized UX
       and merchandising. Partner-gated; integration via HTS sales.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://hts.hopper.com/products/hts-stays
     baseURL: https://hts.hopper.com
     tags:
@@ -67,7 +67,7 @@ apis:
     description: >-
       Car rental e-commerce platform from HTS that partners embed for global
       car rental inventory and booking. Partner-gated.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://hts.hopper.com/products/hts-cars
     baseURL: https://hts.hopper.com
     tags:
@@ -82,7 +82,7 @@ apis:
     name: HTS Packages
     description: >-
       Bundled flight + hotel package product from HTS. Partner-gated.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://hts.hopper.com/products/hts-packages
     baseURL: https://hts.hopper.com
     tags:
@@ -100,7 +100,7 @@ apis:
       Cancel for Any Reason (airlines and hotels), Disruption Assistance for
       Any Reason, and HTS Seat Upgrades. Marketed as Hopper's market-leading
       profit driver with sales in 180+ countries. Partner-gated.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://hts.hopper.com/
     baseURL: https://hts.hopper.com
     tags:
@@ -117,7 +117,7 @@ apis:
     description: >-
       Travel loyalty portals powering bank travel programs, used by partners
       such as Capital One Travel and RBC. Partner-gated.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://hts.hopper.com/
     baseURL: https://hts.hopper.com
     tags:
@@ -137,7 +137,7 @@ apis:
       Agentic AI built specifically for airline and travel customer service,
       delivering end-to-end autonomous resolutions via voice and chat. Sold to
       airlines and travel partners; integration is sales-led.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://hts.hopper.com/products/hts-assist
     baseURL: https://hts.hopper.com
     tags:
