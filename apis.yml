@@ -170,7 +170,7 @@ common:
     url: rate-limits/hopper-travel-rate-limits.yml
   - type: FinOps
     url: finops/hopper-travel-finops.yml
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://hopper.com/llms.txt
 maintainers:
   - FN: Kin Lane
