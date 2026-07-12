@@ -1,0 +1,27 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: hopper.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 24 06:23:20 2026 GMT
+  hsts: null
+- host: hts.hopper.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 24 16:34:25 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: hopper.com
+  dnssec: true
+  caa:
+  - 0 issue "pki.goog"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "amazonaws.com"
+  - 0 iodef "mailto:caa-alerts@hopper.com"
+  - 0 issue "entrust.net"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

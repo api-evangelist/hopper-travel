@@ -150,6 +150,8 @@ apis:
       - type: ProductPage
         url: https://hts.hopper.com/products/hts-assist
 common:
+  - type: DomainSecurity
+    url: security/hopper-travel-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/hopper
   - type: LinkedInHTS
@@ -172,6 +174,8 @@ common:
     url: finops/hopper-travel-finops.yml
   - type: LlmsText
     url: https://hopper.com/llms.txt
+  - url: https://hts.hopper.com/newsroom
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
