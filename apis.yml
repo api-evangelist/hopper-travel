@@ -10,7 +10,19 @@ description: >-
   (Stays, Cars, Packages), fintech ancillaries, loyalty portals, and HTS Assist
   agentic AI to banks, airlines, and travel providers including Capital One,
   Air Canada, Virgin Australia, Tripadvisor, Frontier, Wizz Air, and Porter.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hopper-travel.png
 tags:
   - Travel
   - Marketplace
