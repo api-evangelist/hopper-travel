@@ -10,6 +10,17 @@ description: >-
   (Stays, Cars, Packages), fintech ancillaries, loyalty portals, and HTS Assist
   agentic AI to banks, airlines, and travel providers including Capital One,
   Air Canada, Virgin Australia, Tripadvisor, Frontier, Wizz Air, and Porter.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
